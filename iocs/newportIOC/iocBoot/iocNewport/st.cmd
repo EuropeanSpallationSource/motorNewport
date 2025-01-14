@@ -1,4 +1,4 @@
-#!../../bin/linux-x86_64/newport
+#!../../bin/darwin-x86/newport
 
 < envPaths
 
@@ -10,7 +10,7 @@ newport_registerRecordDeviceDriver pdbbase
 dbLoadRecords("$(MOTOR)/db/motorUtil.db", "P=newport:")
 
 #
-#!< motor.cmd.hxp
+< motor.cmd.hxp
 #!< ESP300.cmd 
 #!< MM3000.cmd
 #!< MM4000.cmd
